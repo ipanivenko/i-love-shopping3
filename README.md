@@ -5,8 +5,34 @@
 MoveOn is a full-stack B2C e-commerce platform focused on sports footwear. Customers can browse products, manage carts, place orders, track purchases, and interact with support services through a modern and responsive web application.
 
 The platform includes both customer-facing features and administration tools, while implementing security, accessibility, and performance requirements expected from a production-ready application.
+---
+
+## 📸 Screenshots
+
+### 🏠 Home
+
+<p align="center">
+  <img src="docs/screens/home.png" width="280">
+</p>
 
 ---
+
+### 🛍️ Product Catalog
+
+<p align="center">
+  <img src="docs/screens/products.png" width="400">
+</p>
+
+---
+
+
+### 🛒 Shopping Cart
+
+<p align="center">
+  <img src="docs/screens/cart.png" width="320">
+</p>
+---
+
 
 ## 🚀 Key Features
 
