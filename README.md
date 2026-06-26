@@ -31,6 +31,7 @@ The platform includes both customer-facing features and administration tools, wh
 <p align="center">
   <img src="docs/screens/cart.png" width="320">
 </p>
+
 ---
 
 
