@@ -1,0 +1,67 @@
+services:
+  db:
+    image: postgres:16
+    container_name: b2c_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: ${POSTGRES_DB:-b2c}
+    ports:
+      - "${DB_PORT:-5433}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: b2c_rabbitmq
+    restart: unless-stopped
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    container_name: b2c_backend
+    restart: unless-stopped
+    depends_on:
+      - db
+      - rabbitmq
+    env_file:
+      - ./backend/.env.docker
+    ports:
+      - "${BACKEND_PORT:-3000}:3000"
+    volumes:
+      - .:/app
+      - backend_root_node_modules:/app/node_modules
+      - backend_node_modules:/app/backend/node_modules
+    command: sh -c "cd /app/backend && npx prisma generate && npx prisma migrate deploy && npm run start:dev"
+
+    
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    container_name: b2c_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    env_file:
+      - ./frontend/.env.docker
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    volumes:
+      - .:/app
+      - frontend_root_node_modules:/app/node_modules
+      - frontend_node_modules:/app/frontend/node_modules
+    command: sh -c "cd /app/frontend && npm run dev -- --host 0.0.0.0"
+
+volumes:
+  postgres_data:
+  backend_root_node_modules:
+  backend_node_modules:
+  frontend_root_node_modules:
+  frontend_node_modules:

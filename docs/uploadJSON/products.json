@@ -1,0 +1,287 @@
+[
+    {
+        "name": "adidas Adizero Adios 9 Men's Running Shoes - SS26",
+        "description": "Men's running shoes",
+        "priceCents": 12000,
+        "currency": "EUR",
+        "category": "running",
+        "brand": "adidas",
+        "status": "ACTIVE",
+        "gender": "MEN",
+        "surface": "ROAD",
+        "weightGrams": 150,
+        "weightOunces": 230,
+        "lengthMm": 200,
+        "widthMm": 100,
+        "heightMm": 20,
+        "lengthIn": 13,
+        "widthIn": 34,
+        "heightIn": 22,
+        "colors": [
+            {
+                "name": "Yellow / Core Black / Court Green",
+                "hexCode": "#FFFF00",
+                "images": [
+                    {
+                        "filename": "adidasAdios9.jpg",
+                        "altText": "adidas Adizero Adios 9 yellow core black court green view",
+                        "sortOrder": 1
+                    },
+                    {
+                        "filename": "adidasAdios9side.jpg",
+                        "altText": "adidas Adizero Adios 9 yellow core black court green side view",
+                        "sortOrder": 2
+                    }
+                ],
+                "items": [
+                    {
+                        "sizeEU": "36",
+                        "sizeUS": "4",
+                        "sizeUK": "3.5",
+                        "barcode": "100000036",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "37",
+                        "sizeUS": "5",
+                        "sizeUK": "4.5",
+                        "barcode": "100000037",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "38",
+                        "sizeUS": "5.5",
+                        "sizeUK": "5",
+                        "barcode": "100000038",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "39",
+                        "sizeUS": "6.5",
+                        "sizeUK": "6",
+                        "barcode": "100000039",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "40",
+                        "sizeUS": "7",
+                        "sizeUK": "6.5",
+                        "barcode": "100000040",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "41",
+                        "sizeUS": "8",
+                        "sizeUK": "7.5",
+                        "barcode": "100000041",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "42",
+                        "sizeUS": "9",
+                        "sizeUK": "8",
+                        "barcode": "100000042",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "43",
+                        "sizeUS": "9.5",
+                        "sizeUK": "8.5",
+                        "barcode": "100000043",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "44",
+                        "sizeUS": "10",
+                        "sizeUK": "9",
+                        "barcode": "100000044",
+                        "stockQty": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "adidas Adizero Evo SL Men's Running Shoes - SS26",
+        "description": "Men's running shoes",
+        "priceCents": 12000,
+        "currency": "EUR",
+        "category": "running",
+        "brand": "adidas",
+        "status": "ACTIVE",
+        "gender": "MEN",
+        "surface": "ROAD",
+        "weightGrams": 150,
+        "weightOunces": 230,
+        "lengthMm": 200,
+        "widthMm": 100,
+        "heightMm": 20,
+        "lengthIn": 13,
+        "widthIn": 34,
+        "heightIn": 22,
+        "colors": [
+            {
+                "name": "Charcoal",
+                "hexCode": "#36454F",
+                "images": [
+                    {
+                        "filename": "adidasEvo1.jpg",
+                        "altText": "adidas Adizero Evo SL charcoal view",
+                        "sortOrder": 1
+                    },
+                    {
+                        "filename": "adidasEvo2.jpg",
+                        "altText": "adidas Adizero Evo SL charcoal side view",
+                        "sortOrder": 2
+                    }
+                ],
+                "items": [
+                    {
+                        "sizeEU": "36",
+                        "sizeUS": "4",
+                        "sizeUK": "3.5",
+                        "barcode": "100000036",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "37",
+                        "sizeUS": "5",
+                        "sizeUK": "4.5",
+                        "barcode": "100000037",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "38",
+                        "sizeUS": "5.5",
+                        "sizeUK": "5",
+                        "barcode": "100000038",
+                        "stockQty": 5
+                    },
+                    {
+                        "sizeEU": "39",
+                        "sizeUS": "6.5",
+                        "sizeUK": "6",
+                        "barcode": "100000039",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "40",
+                        "sizeUS": "7",
+                        "sizeUK": "6.5",
+                        "barcode": "100000040",
+                        "stockQty": 3
+                    },
+                    {
+                        "sizeEU": "41",
+                        "sizeUS": "8",
+                        "sizeUK": "7.5",
+                        "barcode": "100000041",
+                        "stockQty": 6
+                    },
+                    {
+                        "sizeEU": "42",
+                        "sizeUS": "9",
+                        "sizeUK": "8",
+                        "barcode": "100000042",
+                        "stockQty": 9
+                    },
+                    {
+                        "sizeEU": "43",
+                        "sizeUS": "9.5",
+                        "sizeUK": "8.5",
+                        "barcode": "100000043",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "44",
+                        "sizeUS": "10",
+                        "sizeUK": "9",
+                        "barcode": "100000044",
+                        "stockQty": 8
+                    }
+                ]
+            },
+            {
+                "name": "Bordo",
+                "hexCode": "#800020",
+                "images": [
+                    {
+                        "filename": "adidasEvoBordo.png",
+                        "altText": "adidas Adizero Evo SL bordo view",
+                        "sortOrder": 1
+                    },
+                    {
+                        "filename": "EvoBordo2.png",
+                        "altText": "adidas Adizero Evo SL bordo side view",
+                        "sortOrder": 2
+                    }
+                ],
+                "items": [
+                    {
+                        "sizeEU": "36",
+                        "sizeUS": "4",
+                        "sizeUK": "3.5",
+                        "barcode": "100000036",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "37",
+                        "sizeUS": "5",
+                        "sizeUK": "4.5",
+                        "barcode": "100000037",
+                        "stockQty": 8
+                    },
+                    {
+                        "sizeEU": "38",
+                        "sizeUS": "5.5",
+                        "sizeUK": "5",
+                        "barcode": "100000038",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "39",
+                        "sizeUS": "6.5",
+                        "sizeUK": "6",
+                        "barcode": "100000039",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "40",
+                        "sizeUS": "7",
+                        "sizeUK": "6.5",
+                        "barcode": "100000040",
+                        "stockQty": 7
+                    },
+                    {
+                        "sizeEU": "41",
+                        "sizeUS": "8",
+                        "sizeUK": "7.5",
+                        "barcode": "100000041",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "42",
+                        "sizeUS": "9",
+                        "sizeUK": "8",
+                        "barcode": "100000042",
+                        "stockQty": 6
+                    },
+                    {
+                        "sizeEU": "43",
+                        "sizeUS": "9.5",
+                        "sizeUK": "8.5",
+                        "barcode": "100000043",
+                        "stockQty": 10
+                    },
+                    {
+                        "sizeEU": "44",
+                        "sizeUS": "10",
+                        "sizeUK": "9",
+                        "barcode": "100000044",
+                        "stockQty": 9
+                    }
+                ]
+            }
+        ]
+    }
+]
